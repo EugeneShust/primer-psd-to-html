@@ -8,6 +8,7 @@ body {
   font-family: Roboto;
 }
 
+/* home start */
 #home {
   /* border: 1px solid; */
   margin-left: 1rem;
@@ -15,7 +16,7 @@ body {
 }
 
 #upper-home {
-  /* border: 1px solid green; */
+  border: 1px solid;
   margin: 1rem;
   display: flex;
   justify-content: space-around;
@@ -79,3 +80,4 @@ body {
 .companies p {
   text-align: center;
 }
+/* home end */
