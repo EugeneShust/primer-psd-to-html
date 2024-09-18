@@ -9,5 +9,73 @@ body {
 }
 
 #home {
-  
+  /* border: 1px solid; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#upper-home {
+  /* border: 1px solid green; */
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-left {
+  margin: 2rem;
+  width: 35rem;
+  height: 35rem;
+  outline: 2px solid #BBADA0;
+  text-align: left;
+  background-color: #BBADA0;
+}
+
+.inline-box {
+  margin: 1rem;
+  margin-top: 3rem;
+  margin-right: 12rem;
+  padding: .5rem;
+  background-color: #D1C6AD;
+}
+
+#text-catchy {
+  margin: 1rem;
+  margin-top: 10rem;
+}
+
+.box-left h1 {
+  font-size: 3rem;
+}
+
+.button {
+  display: block;
+  margin-left: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 7rem;
+}
+
+.button:hover {
+  outline: 4px solid 0B1D51;
+}
+.button:active {
+  color: #0B1D51;
+}
+
+.box-right {
+  margin: 2rem;
+  outline: 2px solid #BBADA0;
+  border-radius: 8px;
+  width: 20rem;
+  height: 35rem;
+}
+
+#text-demo {
+  text-align: center;
+}
+
+.companies p {
+  text-align: center;
 }
