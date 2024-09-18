@@ -8,8 +8,10 @@ body {
   font-family: Roboto;
 }
 
+/* home start */
+
 #home {
-  /* border: 1px solid; */
+  border: 1px solid;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -80,6 +82,8 @@ body {
   text-align: center;
 }
 
+/* home end */
+
 .navbar {
   background-color: #0b1d51;
 }
@@ -88,8 +92,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem
-  ;
+  gap: 2rem;
 }
 .nav-links a {
   color: #d1c6ad;
@@ -168,7 +171,7 @@ h1 {
 }
 
 
-
+/* Betrifft alle Elemente <h2>! */
 h2 {
 
   font-size: 35px;
@@ -177,6 +180,7 @@ h2 {
   text-align: center;
 }
 
+/* Betrifft alle Elemente <p>! */
 p {
 
   font-size: 40px;
@@ -185,6 +189,7 @@ p {
   font-weight: bold;
 }
 
+/* Betrifft alle Elemente <button>! */
 button {
 
   background-color: #f5d9d9;
