@@ -79,3 +79,33 @@ body {
 .companies p {
   text-align: center;
 }
+
+.navbar {
+  background-color: #0b1d51;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+  ;
+}
+.nav-links a {
+  color: #d1c6ad;
+  text-decoration: none;
+}
+footer {
+  background-color: #797596;
+
+}
+.footer-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer-links a {
+  color: #bbada0;
+  text-decoration: none;
+}
