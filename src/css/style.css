@@ -42,3 +42,89 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.text {
+  font-size: 12px;
+  text-align: center;
+}
+
+.price-container {
+  display: flex; /* Aktiviert Flexbox */
+  justify-content: space-around; /* Verteilt die Boxen gleichmäßig */
+  margin-top: 50px; /* Abstand nach oben */
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+  margin-bottom: 70px;
+}
+
+.basis {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 20px;
+  width: 200px; /* Feste Breite für die Boxen */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+  
+  
+}
+
+
+
+.Standart {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 20px;
+  width: 200px; /* Feste Breite für die Boxen */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Premium {
+
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  padding: 20px;
+  width: 200px; /* Feste Breite für die Boxen */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+
+  font-size: 35px;
+
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+p {
+
+  font-size: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+
+  background-color: #f5d9d9;
+  border:none;
+  height: 45px;
+  width: 200px;
+
+
+}
+
